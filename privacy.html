@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Privacy Policy — Cruise_gm</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 60px auto; padding: 0 20px; line-height: 1.7; color: #222; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.15em; margin-top: 1.6em; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p><em>Last updated: November 20, 2026</em></p>
+
+<p>This privacy policy describes how the Cruise_gm application ("the Application")
+handles information. The Application is a personal, non-commercial, open-source
+command-line tool operated by an individual developer ("we", "us") solely for the
+purpose of exporting emails from the operator's own Gmail account to local files.</p>
+
+<h2>1. Information We Access</h2>
+<p>The Application accesses the following information through the Google Gmail API,
+using the read-only scope <code>https://www.googleapis.com/auth/gmail.readonly</code>:</p>
+<ul>
+  <li>Email message metadata (sender, recipients, subject, date, labels);</li>
+  <li>Email message content (plain-text body and snippet);</li>
+  <li>Attachment metadata (file name, MIME type, size). Attachment contents are not downloaded.</li>
+</ul>
+<p>Access is limited to the Gmail account whose owner explicitly completes the Google
+OAuth 2.0 consent flow. The Application does not access any other Google service data.</p>
+
+<h2>2. How We Use the Information</h2>
+<p>The accessed information is used for a single purpose: exporting the user's own
+emails, for a user-specified date range, into JSON files stored on the user's own
+computer. The information is not used for advertising, profiling, analytics,
+machine-learning training, or any other purpose.</p>
+
+<h2>3. Where the Information Is Stored</h2>
+<p>All data retrieved by the Application is stored exclusively on the local computer
+on which the Application is run. OAuth credentials (refresh token) are stored in a
+local file with restricted file-system permissions. No data is transmitted to,
+stored on, or processed by any server operated by us or by any third party, other
+than the direct API connection to Google's servers required to retrieve the data.</p>
+
+<h2>4. Sharing of Information</h2>
+<p>We do not share, sell, rent, transfer, or disclose any information accessed by the
+Application to any third party. The data never leaves the user's own computer.</p>
+
+<h2>5. Data Retention and Deletion</h2>
+<p>Because all data resides on the user's own computer, the user retains full control
+at all times. The user may delete the exported JSON files and the stored credentials
+at any time using ordinary file deletion, after which no copy of the data remains.
+The user may also revoke the Application's access at any time via their
+<a href="https://myaccount.google.com/permissions">Google Account permissions page</a>.</p>
+
+<h2>6. Security</h2>
+<p>The Application communicates with Google services exclusively over HTTPS.
+OAuth credentials are stored locally with owner-only file permissions (mode 600).
+We recommend users keep their operating system up to date and protect access to
+their computer.</p>
+
+<h2>7. Google API Services User Data Policy</h2>
+<p>The Application's use and transfer of information received from Google APIs
+adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>8. Changes to This Policy</h2>
+<p>If this policy changes, the updated version will be published at this URL with a
+revised "last updated" date.</p>
+
+<h2>9. Contact</h2>
+<p>For any question about this privacy policy or the Application, contact:
+<a href="mailto:raincruisethu@gmail.com">raincruisethu@gmail.com</a>.</p>
+</body>
+</html>
